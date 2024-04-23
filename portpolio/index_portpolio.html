@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+        }
+
+        nav {
+            float: right; /* Float nav to the right */
+            padding: 20px;
+            width: 100%; /* Adjust width to leave space for the profile photo */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: left; /* Align text to the left */
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:first-child {
+            margin-right: auto; /* Push Vinayak to the left end */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000; /* Black text */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .profile-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: 0 2px 51px rgb(85, 82, 214); 
+            float: right; /* Float photo to the left */
+            margin-right: 70px; /* Add some space to the right */
+        }
+
+        .big-text {
+            font-size: 80px;
+            font-weight: bold;
+            text-align: left;
+            padding-top: 250px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+        <header>
+            <!-- Navigation -->
+            <nav style="border-bottom: 1px solid rgba(101, 94, 94, 0.247);">
+                <!-- Company name aligned to the left -->
+                <b><div style="float: left;margin-left: 200px;"><a href="index_portpolio.html" style="text-decoration: none; list-style-type: none;" >Swathi Banakar</a></div></b>
+                
+                <!-- Navigation items aligned to the right -->
+                <ul style="float: right;margin-right: 171px;">
+                    <b><li style="display: inline-block; margin-right: 10px;"><a href="index_portpolio.html">Home</a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="resume.html">Resume</a></li>
+                    <li style="display: inline-block; margin-right: 10px;"><a href="https://in.linkedin.com/in/swathi-banakar">Linked in</a></li>
+                    <li style="display: inline-block;"><a href="contact_me.html">Contact me</a></li></b>
+                </ul>
+            </nav>
+        </header>
+    
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Profile Photo -->
+        <img style="margin-top: 150px; box-sizing: 0px 2px 20px yellow;" src="asset/your-picture.jpg" alt="Your Photo" class="profile-photo">
+
+        <!-- Big Text -->
+        <div class="big-text">
+            Hai there,<br><span>I am</span>  <span style="color:rgb(85, 82, 214) ;">Swathi Banakar</span>
+            <br>
+            <button type="button" style="width: 80px;padding: 4px;background: rgb(85, 82, 214);border-radius: 8px;color: white;border-color: rgb(85, 82, 214);" ><a href="contact_me.html" style="text-decoration: none; list-style-type: none; color: white;">Contact me</a></button><br><br>
+        
+        </div>
+    </div>
+</body>
+</html>
